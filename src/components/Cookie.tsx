@@ -1,5 +1,6 @@
 import Cookies from "universal-cookie";
 import Button from "react-bootstrap/Button"
+import 'bootstrap/dist/css/bootstrap.min.css'
 interface noprops {
 
 }
@@ -21,7 +22,7 @@ export function Cookie(props: noprops): JSX.Element{
       return (
           <section>
             <div>
-                Click this button to get a cookie! (This was created using the example in the readme of the universal-cookie github repository.) <a href="https://github.com/Lukerd-29-00/Portfolio/blob/master/src/App.tsx">click here</a> to view the source code.
+                Click this button to get a cookie! (This was created using the example in the readme of the universal-cookie github repository.)
             </div>
             <div>
                 <button id="cookie" onClick = {setCookie}/>
