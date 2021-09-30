@@ -33,7 +33,7 @@ export function Cookie(props: noprops): JSX.Element{
             </div>
             <footer>
                 <p><a href="https://lukerd-29-00.github.io/Portfolio/">Homepage</a></p>
-                <p><a href="https://github.com/Lukerd-29-00/Bakery">Bakery repository</a></p>
+                <p><a href="https://github.com/Lukerd-29-00/Bakery/tree/source/src/components">Source code</a></p>
                 <p><a href="https://github.com/Lukerd-29-00/Portfolio">Main repository</a></p>
             </footer>
           </section>
